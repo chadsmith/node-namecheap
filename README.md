@@ -169,7 +169,7 @@ Sets domain to use custom DNS servers. `nameservers` can be an array or comma se
 
 Sets email forwarding for a domain name.
 
-	namecheap.domains.dns.setEmailForwarding('smithfam.net', { chad: 'chad@nopsam.me', laura: 'laura@nopsam.me' }, function(err, res) {
+	namecheap.domains.dns.setEmailForwarding('smithfam.net', { chad: 'chad@nospam.me', laura: 'laura@nospam.me' }, function(err, res) {
 	  console.log(res);
 	});
 
@@ -177,7 +177,7 @@ Sets email forwarding for a domain name.
 
 Sets email forwarding for a domain name.
 
-	namecheap.domains.dns.setEmailForwarding('smithfam.net', { chad: 'chad@nopsam.me', laura: 'laura@nopsam.me' }, function(err, res) {
+	namecheap.domains.dns.setEmailForwarding('smithfam.net', { chad: 'chad@nospam.me', laura: 'laura@nospam.me' }, function(err, res) {
 	  console.log(res);
 	});
 
