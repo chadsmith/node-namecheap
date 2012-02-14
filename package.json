@@ -1,0 +1,20 @@
+{
+  "author": "Chad Smith <chad@nospam.me> (http://twitter.com/chadsmith)",
+  "name": "namecheap",
+  "description": "Node.js library for the NameCheap API",
+  "keywords": ["namecheap", "domains", "domain", "whois"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/chadsmith/node-namecheap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chadsmith/node-namecheap.git"
+  },
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "main": "./namecheap.js",
+  "dependencies": {
+  	"request": "*",
+  	"xml2json": "*"
+  }
+}
