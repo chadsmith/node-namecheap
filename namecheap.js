@@ -594,7 +594,7 @@ namecheap.prototype = {
                 return callback(err);
             }
 
-            body = parser.toJson(body, { object: true });
+            body = parser.toJson(body, { object: true, trim: false });
             err = body.ApiResponse.Errors.Error;
             res = body.ApiResponse.CommandResponse;
             err = err ? { code : err.Number, message: err.$t } : undefined;
