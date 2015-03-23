@@ -1,4 +1,4 @@
-var parser = require('xml2json'),
+var parser = require('xmlparser'),
     request = require('request'),
     qs = require('querystring'),
     util = require('util');
@@ -594,7 +594,7 @@ namecheap.prototype = {
                 return callback(err);
             }
 
-            body = parser.toJson(body, { object: true, trim: false });
+            body = parser.parser(body);
             err = body.ApiResponse.Errors.Error;
             res = body.ApiResponse.CommandResponse;
             err = err ? { code : err.Number, message: err.$t } : undefined;
