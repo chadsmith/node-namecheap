@@ -15,6 +15,6 @@
   "main": "./namecheap.js",
   "dependencies": {
   	"request": "*",
-  	"xml2json": "*"
+  	"xmlparser": "*"
   }
 }
